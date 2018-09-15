@@ -19,13 +19,18 @@ body{
   -webkit-flex-wrap: wrap;
   -webkit-justify-content: space-around;
   padding: 25px;
+  margin: au;
 }
 .col {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  max-width: 400px;
 }
+
+
+
 .col-left {
   -webkit-box-ordinal-group:-1;
   -webkit-order: -1;
@@ -40,9 +45,12 @@ body{
 .Aligner-item {
   width: 60%;
 }
+
 .col-image {
-  background-size: cover;
+  background-size: contain;
   background-position:center center;
+  max-width: 400px;
+  height: 400px;
 }
 
 @media (max-width: 640px) {
@@ -65,7 +73,7 @@ body{
     padding: 1em;
   }
   .Aligner-item {
-    width: 90%;
+    	width: 50%;
   }
 }
 
