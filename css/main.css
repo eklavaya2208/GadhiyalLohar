@@ -1,4 +1,4 @@
-/* =================================================================== 
+for/* =================================================================== 
  *
  *  Glint v1.0 Main Stylesheet
  *  11-20-2017
@@ -621,13 +621,13 @@ select {
     padding: 1.5rem 0;
     border: 0;
     outline: none;
-    color: #333333;
-    font-family: "montserrat-light", sans-serif;
+    color: white!important;
+    font-family: "Optima", sans-serif;
     font-size: 1.4rem;
     line-height: 3rem;
     max-width: 100%;
     background: transparent;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 2px solid white;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
